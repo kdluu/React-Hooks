@@ -1,0 +1,27 @@
+.counter {
+  text-align: center;
+  width: 30%;
+}
+
+.counter h2 {
+  font-size: 5rem;
+}
+
+.counter-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+}
+
+.counter-button {
+  background-color: hsl(188, 77%, 57%);
+  padding: 0.5rem 2rem;
+  font-size: 2rem;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.counter-button:hover,
+.counter-button:focus {
+  background-color: hsl(188, 77%, 72%);
+}

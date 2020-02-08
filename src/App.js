@@ -3,7 +3,7 @@ import './App.css';
 import Counter from './Counter';
 
 const App = () => (
-  <div>
+  <div className="counter-container">
     <h1>React Hook Dojo</h1>
 
     <Counter />
