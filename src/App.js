@@ -2,18 +2,20 @@ import React from 'react';
 import './App.css';
 import Counter from './Counter';
 
-const App = () => (
-  <div>
-    <div className="counter-container">
-      <h1>React Hook Dojo</h1>
+const App = () => {
+  return (
+    <div>
+      <div className="counter-container">
+        <h1>React Hook Dojo</h1>
 
-      <Counter />
-    </div>
+        <Counter />
+      </div>
 
-    <div className="out-of-view">
-      <h2>Hello World</h2>
+      <div className="out-of-view">
+        <h2>Hello World</h2>
+      </div>
     </div>
-  </div>
-);
+  );
+};
 
 export default App;
