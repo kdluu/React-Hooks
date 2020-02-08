@@ -1,9 +1,12 @@
 import React from 'react';
 import './App.css';
+import Counter from './Counter';
 
 const App = () => (
   <div>
-    <h1>Hello World</h1>
+    <h1>React Hook Dojo</h1>
+
+    <Counter />
   </div>
 );
 

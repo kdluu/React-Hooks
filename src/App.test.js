@@ -3,8 +3,8 @@ import { shallow } from 'enzyme';
 import App from './App';
 
 describe('<App />', () => {
-  it('renders hello world', () => {
+  it('should render', () => {
     const wrapper = shallow(<App />);
-    expect(wrapper.text()).toContain('Hello World');
+    expect(wrapper.find('h1').text()).toEqual('React Hook Dojo');
   });
 });
