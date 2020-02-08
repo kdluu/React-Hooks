@@ -3,10 +3,16 @@ import './App.css';
 import Counter from './Counter';
 
 const App = () => (
-  <div className="counter-container">
-    <h1>React Hook Dojo</h1>
+  <div>
+    <div className="counter-container">
+      <h1>React Hook Dojo</h1>
 
-    <Counter />
+      <Counter />
+    </div>
+
+    <div className="out-of-view">
+      <h2>Hello World</h2>
+    </div>
   </div>
 );
 

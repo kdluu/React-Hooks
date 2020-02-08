@@ -12,3 +12,8 @@
   font-size: 3rem;
   margin-bottom: 0;
 }
+
+.out-of-view {
+  text-align: center;
+  height: 30vh;
+}

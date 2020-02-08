@@ -3,10 +3,6 @@
   width: 30%;
 }
 
-.counter h2 {
-  font-size: 5rem;
-}
-
 .counter-buttons {
   display: flex;
   justify-content: space-between;
